@@ -1,1 +1,3 @@
-Here is an improved Next.js template for news and magazines that you may want to check out: https://github.com/abhinishere/nextjs-tech-magazine-template
+** Задание
+    Страница новостей с заголовками новости, использование TailwindCss. Корректная верстка и расположение элементов. На данной странице перечислены все новости из Postgresql с помощью Prisma. Prisma seeding. Использование компонентов, а не формирование всех элементов в Page.tsx. Динамические пути к конкретной новости, на которой отображается заголовок новости и ее описание, дата, необязательное изображение и т.д.
+** Результат работы
