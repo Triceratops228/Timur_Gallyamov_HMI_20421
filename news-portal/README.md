@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Задание
 
-## Getting Started
+Страница новостей с заголовками новости, использование TailwindCss. Корректная верстка и расположение элементов. На данной странице перечислены все новости из Postgresql с помощью Prisma. Prisma seeding. Использование компонентов, а не формирование всех элементов в Page.tsx. Динамические пути к конкретной новости, на которой отображается заголовок новости и ее описание, дата, необязательное изображение и т.д.
 
-First, run the development server:
+# Процесс выполнения
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1) Был выбран готовый шаблон новостного ресурса.
+2) Затем я установил необходимые зависимости проекта.
+3) В качестве базы данных был выбран инструмент, совместимый с фреймворком приложения, например MySQL/PostgreSQL.
+4) Настроил структуру таблиц базы данных для хранения данных о новостях, категориях и содержании новости и тд.
+5) Добавил несколько записей вручную или через скрипты для тестирования функциональности.
+6) Создал .env-файл для хранения конфигурации базы данных.
+7) Создал схему базы данных в prisma/schema.prisma и сгенерировал клиент.
+8) Применена миграция для создания таблиц в базе данных
+9) Далее доставал из БД нужные мне сведения и размещал их на сайте
+   
+# Результат работы
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![output_compress-video-online com_](https://github.com/user-attachments/assets/dc11cb7d-e96c-42dd-a0d4-280d8cb449d5)
